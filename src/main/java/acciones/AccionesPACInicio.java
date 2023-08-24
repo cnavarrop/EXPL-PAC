@@ -32,7 +32,7 @@ public class AccionesPACInicio {
 
 	public void validarPantallaInicio() {
 		String titulo = driver.getTitle();
-		Assert.assertEquals(titulo, "Portal Unico de Atención a Clientes AFP Ha");
+		Assert.assertEquals(titulo, "Portal Unico de Atención a Clientes AFP Habitat");
 		
 	}
 	
