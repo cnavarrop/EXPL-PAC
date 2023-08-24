@@ -1,6 +1,7 @@
 package steps;
 
 import io.cucumber.java.Before;
+import utils.ExtentManager;
 import utils.SeleniumDriver;
 
 public class Antes {
@@ -10,6 +11,7 @@ public class Antes {
 		
 		SeleniumDriver.cargarArchivoProperty();
 		SeleniumDriver.setDriver();
+		ExtentManager.getIntance();
+		}
 	}
 
-}
